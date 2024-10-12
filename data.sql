@@ -1,7 +1,4 @@
 ﻿
-/*CƠ SỞ DỮ LIỆU ĐƯỢC XÂY DỰNG BỞI CAO TẤN CÔNG VÀ LÊ HỮU TÀI
-THỰC HIỆN ĐỀ TÀI WEBSITE BÁN ĐIỆN THOẠI DI ĐỘNG VÀ PHỤ KIỆN*/
-
 CREATE DATABASE Web_BanDienThoai_TCShop
 GO
 
