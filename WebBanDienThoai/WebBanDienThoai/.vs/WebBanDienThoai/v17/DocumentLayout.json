@@ -6,11 +6,11 @@
       "AbsoluteMoniker": "D:0:0:{69400C62-7F51-4FA9-A0EE-3C6D60D7B7C9}|..\\TestProject1\\TestProject1.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\webbandienthoai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\webbandienthoai\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -21,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,11 +57,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestProject1\\UnitTest1.cs",
+              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestProject1\\UnitTest1.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAADwvzEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:32:02.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -86,21 +99,7 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:32:10.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\TestProject1\\UnitTest1.cs",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\UnitTest1.cs",
-              "RelativeToolTip": "..\\TestProject1\\UnitTest1.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAqwDUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:32:02.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T06:32:10.546Z"
             }
           ]
         }

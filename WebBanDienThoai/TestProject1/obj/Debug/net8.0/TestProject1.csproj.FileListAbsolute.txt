@@ -208,3 +208,4 @@ D:\HOCTAP\HK5\web_CT\WebBanDienThoai_TCShop\WebBanDienThoai\TestProject1\bin\Deb
 D:\HOCTAP\HK5\web_CT\WebBanDienThoai_TCShop\WebBanDienThoai\TestProject1\bin\Debug\net8.0\CaptchaMvc.xml
 D:\HOCTAP\HK5\web_CT\WebBanDienThoai_TCShop\WebBanDienThoai\TestProject1\bin\Debug\net8.0\PagedList.xml
 D:\HOCTAP\HK5\web_CT\WebBanDienThoai_TCShop\WebBanDienThoai\TestProject1\bin\Debug\net8.0\System.Net.Http.Formatting.xml
+D:\HOCTAP\HK5\web_CT\WebBanDienThoai_TCShop\WebBanDienThoai\TestProject1\obj\Debug\net8.0\TestProject1.sourcelink.json

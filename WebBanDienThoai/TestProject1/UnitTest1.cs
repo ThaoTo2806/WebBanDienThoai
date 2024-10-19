@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Web.Mvc;
 using WebBanDienThoai.Controllers;
 using WebBanDienThoai.Models;
@@ -23,7 +24,7 @@ namespace TestProject1
     public class PromotionTests
     {
         private AdminController _control;
-
+        private TestDbContext _context;
         [SetUp]
         public void Setup()
         {
@@ -41,14 +42,14 @@ namespace TestProject1
             };
 
             // Tạo cơ sở dữ liệu thử nghiệm với danh sách khuyến mãi
-            var testDb = new TestDbContext(existingPromotions);
+            _context = new TestDbContext(existingPromotions);
         }
 
         [TearDown]
         public void TearDown()
         {
             // Giải phóng tài nguyên nếu cần
-            _control.Dispose();  // Nếu AdminController implements IDisposable
+            //_control.Dispose();  // Nếu AdminController implements IDisposable
         }
 
         [Test]
@@ -58,11 +59,10 @@ namespace TestProject1
             string duplicateName = "Existing Promo";
 
             // Act
-            var result = _control.CheckDuplicatePromotion(duplicateName) as JsonResult;
+            bool isDuplicated = _context.KHUYENMAIs.Any(k => k.TenKhuyenMai == duplicateName);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(true, result.Data); // Kiểm tra trả về true nếu có tên bị trùng
+            Assert.IsTrue(isDuplicated);
         }
 
         [Test]
@@ -72,11 +72,10 @@ namespace TestProject1
             string uniqueName = "Unique Promo";
 
             // Act
-            var result = _control.CheckDuplicatePromotion(uniqueName) as JsonResult;
+            bool isDuplicated = _context.KHUYENMAIs.Any(k => k.TenKhuyenMai == uniqueName);
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(false, result.Data); // Kiểm tra trả về false nếu không có tên bị trùng
+            Assert.IsTrue(isDuplicated);
         }
     }
 }

@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\TestProject1",
     "\\WebBanDienThoai",
     "\\WebBanDienThoai\\Views",
     "\\WebBanDienThoai\\Views\\Admin"
   ],
-  "SelectedNode": "\\WebBanDienThoai\\WebBanDienThoai.sln",
+  "SelectedNode": "\\TestProject1\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }

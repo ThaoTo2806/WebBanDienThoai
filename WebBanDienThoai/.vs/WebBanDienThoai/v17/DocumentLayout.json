@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\",
-<<<<<<< HEAD
   "Documents": [],
-=======
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\models\\metadata\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:models\\metadata\\thanhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
->>>>>>> 8b3410033292a12a401f5977eeaf968c5a1c39d5
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,11 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": -1,
-=======
-          "SelectedChildIndex": 11,
->>>>>>> 8b3410033292a12a401f5977eeaf968c5a1c39d5
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,77 +45,11 @@
             },
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-=======
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "THANHVIEN.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Models\\Metadata\\THANHVIEN.cs",
-              "RelativeDocumentMoniker": "Models\\Metadata\\THANHVIEN.cs",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Models\\Metadata\\THANHVIEN.cs",
-              "RelativeToolTip": "Models\\Metadata\\THANHVIEN.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T06:44:25.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAuwBEEAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:05:07.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
-              "WhenOpened": "2024-06-19T10:05:07.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:05:07.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-06-19T10:05:07.205Z",
-              "EditorCaption": ""
->>>>>>> 8b3410033292a12a401f5977eeaf968c5a1c39d5
             }
           ]
         }
