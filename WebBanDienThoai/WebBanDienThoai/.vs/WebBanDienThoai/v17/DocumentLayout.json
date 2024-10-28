@@ -6,6 +6,9 @@
       "AbsoluteMoniker": "D:0:0:{69400C62-7F51-4FA9-A0EE-3C6D60D7B7C9}|..\\TestProject1\\TestProject1.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{69400C62-7F51-4FA9-A0EE-3C6D60D7B7C9}|..\\TestProject1\\TestProject1.csproj|d:\\hoctap\\hk5\\web_ct\\webbandienthoai_tcshop\\webbandienthoai\\testproject1\\khuyenmaitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D77A57D9-75D1-408B-AD73-17945D18BBE1}|WebBanDienThoai.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,6 +63,23 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KhuyenMaiTest.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\KhuyenMaiTest.cs",
+              "RelativeDocumentMoniker": "..\\TestProject1\\KhuyenMaiTest.cs",
+              "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\KhuyenMaiTest.cs",
+              "RelativeToolTip": "..\\TestProject1\\KhuyenMaiTest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:55:29.545Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
@@ -67,14 +87,14 @@
               "RelativeDocumentMoniker": "..\\TestProject1\\UnitTest1.cs",
               "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\TestProject1\\UnitTest1.cs",
               "RelativeToolTip": "..\\TestProject1\\UnitTest1.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAADwvzEAAAAJAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T06:32:02.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -87,15 +107,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "D:\\HOCTAP\\HK5\\web_CT\\WebBanDienThoai_TCShop\\WebBanDienThoai\\WebBanDienThoai\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAIwDwDAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T06:32:10.546Z"
+              "WhenOpened": "2024-10-19T06:32:10.546Z",
+              "EditorCaption": ""
             }
           ]
         }

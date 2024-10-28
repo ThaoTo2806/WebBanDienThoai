@@ -4,78 +4,95 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Json;
 using System.Web.Mvc;
-using WebBanDienThoai.Controllers;
 using WebBanDienThoai.Models;
 
 namespace TestProject1
 {
-    public class TestDbContext
-    {
-        public List<KHUYENMAI> KHUYENMAIs { get; set; }
-
-        public TestDbContext(IEnumerable<KHUYENMAI> khuyenMais)
-        {
-            KHUYENMAIs = khuyenMais.ToList();
-        }
-
-        public IQueryable<KHUYENMAI> KHUYENMAIsQueryable => KHUYENMAIs.AsQueryable();
-    }
-
     public class PromotionTests
     {
-        private AdminController _control;
-        private TestDbContext _context;
+        private List<KhuyenMaiTest> promotions;
+
         [SetUp]
         public void Setup()
         {
-            // Tạo danh sách khuyến mãi mẫu
-            var existingPromotions = new List<KHUYENMAI>
+            promotions = new List<KhuyenMaiTest>
             {
-                new KHUYENMAI
-                {
-                    TenKhuyenMai = "Existing Promo",
-                    MoTa = "Khuyến mãi cho mùa hè 1",
-                    PhanTramGiamGia = 30,
-                    NgayBatDau = DateTime.Parse("2024-06-01"),
-                    NgayKetThuc = DateTime.Parse("2024-06-30")
-                }
+                new KhuyenMaiTest { TenKhuyenMai = "Existing Promo", MoTa = "Description", PhanTramGiamGia = 20, NgayBatDau = DateTime.Now, NgayKetThuc = DateTime.Now.AddDays(10) }
             };
-
-            // Tạo cơ sở dữ liệu thử nghiệm với danh sách khuyến mãi
-            _context = new TestDbContext(existingPromotions);
-        }
-
-        [TearDown]
-        public void TearDown()
-        {
-            // Giải phóng tài nguyên nếu cần
-            //_control.Dispose();  // Nếu AdminController implements IDisposable
         }
 
         [Test]
-        public void CheckDuplicatePromotion_ReturnsTrueIfDuplicateExists()
+        public void KiemTraTenChuongTrinhTrong_TraVeThongBaoLoi()
         {
-            // Arrange
-            string duplicateName = "Existing Promo";
-
-            // Act
-            bool isDuplicated = _context.KHUYENMAIs.Any(k => k.TenKhuyenMai == duplicateName);
-
-            // Assert
-            Assert.IsTrue(isDuplicated);
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "", MoTa = "Một mô tả", PhanTramGiamGia = 10, NgayBatDau = DateTime.Now, NgayKetThuc = DateTime.Now.AddDays(1) };
+            string ex_result = "Tên chương trình không được để trống";
+            string ac_result = promotion.Validate(promotion);
+            Assert.AreEqual(ex_result, ac_result);
         }
 
         [Test]
-        public void CheckDuplicatePromotion_ReturnsFalseIfNoDuplicateExists()
+        public void KiemTraMoTaTrong_TraVeThongBaoLoi()
         {
-            // Arrange
-            string uniqueName = "Unique Promo";
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Promo", MoTa = "" };
+            string ex_result = "Mô tả không được để trống";
+            string ac_result = promotion.Validate(promotion);
+            Assert.AreEqual(ex_result, ac_result);
+        }
 
-            // Act
-            bool isDuplicated = _context.KHUYENMAIs.Any(k => k.TenKhuyenMai == uniqueName);
+        [Test]
+        public void KiemTraPhanTramGiamGiaKhongHopLe_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Existing Promo", MoTa = "Description", PhanTramGiamGia = 110 };
+            string ex_result = "Phần trăm giảm giá phải nằm trong khoảng từ 0 đến 100";
+            string ac_result = promotion.Validate(promotion);
+            Assert.AreEqual(ex_result, ac_result);
+        }
 
-            // Assert
-            Assert.IsTrue(isDuplicated);
+        [Test]
+        public void KiemTraPhanTramGiamGiaAm_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Existing Promo", MoTa = "Description", PhanTramGiamGia = -10 };
+            string result = promotion.Validate(promotion);
+            Assert.That(result, Is.EqualTo("Phần trăm giảm giá phải nằm trong khoảng từ 0 đến 100"));
+        }
+
+        [Test]
+        public void KiemTraNgayBatDauTrong_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Existing Promo", MoTa = "Description", PhanTramGiamGia = 10, NgayBatDau = null };
+            string result = promotion.Validate(promotion);
+            Assert.That(result, Is.EqualTo("Ngày bắt đầu không được để trống"));
+        }
+
+        [Test]
+        public void KiemTraNgayKetThucTrong_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Existing Promo", MoTa = "Description", PhanTramGiamGia = 20, NgayBatDau = DateTime.Now, NgayKetThuc = null };
+            string result = promotion.Validate(promotion);
+            Assert.That(result, Is.EqualTo("Ngày kết thúc không được để trống"));
+        }
+
+        [Test]
+        public void KiemTraTenChuongTrinhTrung_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest { TenKhuyenMai = "Existing Promo" };
+            string result = promotion.Validate(promotion);
+            Assert.IsTrue(promotions.Any(p => p.TenKhuyenMai == promotion.TenKhuyenMai), "Tên chương trình đã tồn tại. Vui lòng chọn một tên khác.");
+        }
+
+        [Test]
+        public void KiemTraNgayKetThucNhoHonNgayBatDau_TraVeThongBaoLoi()
+        {
+            var promotion = new KhuyenMaiTest
+            {
+                TenKhuyenMai = "Existing Promo",
+                MoTa = "Description",
+                PhanTramGiamGia = 20,
+                NgayBatDau = DateTime.Parse("2024-06-30"),
+                NgayKetThuc = DateTime.Parse("2024-06-01")
+            };
+            string result = promotion.Validate(promotion);
+            Assert.That(result, Is.EqualTo("Ngày kết thúc phải lớn hơn ngày bắt đầu"));
         }
     }
 }

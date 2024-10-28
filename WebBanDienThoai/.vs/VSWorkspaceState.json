@@ -3,9 +3,10 @@
     "",
     "\\TestProject1",
     "\\WebBanDienThoai",
+    "\\WebBanDienThoai\\Models",
     "\\WebBanDienThoai\\Views",
     "\\WebBanDienThoai\\Views\\Admin"
   ],
-  "SelectedNode": "\\TestProject1\\UnitTest1.cs",
+  "SelectedNode": "\\WebBanDienThoai\\WebBanDienThoai.sln",
   "PreviewInSolutionExplorer": false
 }
